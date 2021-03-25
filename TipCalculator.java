@@ -5,7 +5,7 @@ public class TipCalculator{
 		Scanner scan = new Scanner(System.in);
 
 		System.out.println("Welcome to Tip Calculator!");
-        System.out.println();
+                System.out.println();
 		System.out.println("Enter the prices of your items. Enter -1 to enter tip percentage.");
 		int count = 1;
 		double price = 0.0;
@@ -20,8 +20,8 @@ public class TipCalculator{
 		
 		System.out.println();
 		System.out.print("Enter the tip percentage:");
-        double percentage = scan.nextDouble();
-        double tip = subtotal * percentage;
+                double percentage = scan.nextDouble();
+                double tip = subtotal * percentage;
 		double total = subtotal + tip; 
 		System.out.println();
 		System.out.printf("Subtotal: $%.2f%n", subtotal);
