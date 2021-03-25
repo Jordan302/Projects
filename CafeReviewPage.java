@@ -1,5 +1,3 @@
-//I worked on the homework assignment alone, using only course materials and the java api.
-
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
